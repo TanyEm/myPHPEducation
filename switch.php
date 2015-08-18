@@ -34,6 +34,36 @@ switch($year)
         echo 'Список статей<br>';
         break;
 
+    case 2010:
+        echo 'Год 2010<br>';
+        echo 'Список статей<br>';
+        break;
+
+    case 2011:
+        echo 'Год 2011<br>';
+        echo 'Список статей<br>';
+        break;
+
+    case 2012:
+        echo 'Год 2012<br>';
+        echo 'Список статей<br>';
+        break;
+
+    case 2013:
+        echo 'Год 2013<br>';
+        echo 'Список статей<br>';
+        break;
+
+    case 2014:
+        echo 'Год 2014<br>';
+        echo 'Список статей<br>';
+        break;
+
+    case 2015:
+        echo 'Год 2015<br>';
+        echo 'Список статей<br>';
+        break;
+
     default:
         echo 'Неправильно указан год<br>';
 }
