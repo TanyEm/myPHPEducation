@@ -35,6 +35,26 @@ echo $lang[3].'<br>';
 echo '<pre>';
 print_r($lang);
 echo '<pre>';
+
+echo '<br><br>';
+$lang2[3]='perl';
+$lang2[7]='piton';
+$lang2[10]='ruby';
+$lang2[14]='JS';
+echo '<pre>';
+print_r($lang2);
+echo '<pre>';
+$lang2[]='C#';
+echo '<pre>';
+print_r($lang2);
+echo '<pre>';
+echo '<br><br>';
+$lang3 = array(9 => 'HTML', 'CSS', 'JS');
+echo '<pre>';
+print_r($lang3);
+echo '<pre>';
+echo "Каскадные таблицы стилей: $lang3[10] <br>";
+echo 'каскадные таблицы стилей: '.$lang3[11].'<br>';
 ?>
 </body>
 </html>
