@@ -23,7 +23,6 @@ $lang[]='HTML';
 $lang[]='CSS';
 $lang[]='PHP';
 $lang[]='JAVA';
-echo $lang.'<br>';
 echo '<br>';
 echo $lang[0].'<br>';
 echo '<br>';

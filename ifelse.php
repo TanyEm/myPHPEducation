@@ -24,8 +24,7 @@
 <?php
 echo '<h1>IF/ELSE</h1><br>';
 $age=0;
-if($age>=18 && $age<=59)
-echo 'Вам еще работать и работать';
+if($age>=18 && $age<=59) echo 'Вам еще работать и работать';
 elseif($age>59)
 echo 'Вам пора на пенсию';
 elseif($age>=1 && $age<=17)
