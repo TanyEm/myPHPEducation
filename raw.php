@@ -46,6 +46,42 @@ if($a === $b) echo '$a === $b'.'<br>';
 else echo '$a !== $b'.'<br>';
 
 echo '<br>';
+echo '<br>';
+echo '<br>';
+echo '<br>';
+echo '<br>';
+echo '<br>';
+
+echo '____________________________';
+echo '<br>';
+echo 'не равно, не эквивалентно';
+echo '<br>';
+echo 'не равно';
+echo '<br>';
+
+$a = 10;
+$b = 11;
+$c = '13';
+$d = '13';
+
+if($a != $b)
+ echo 'a != b';
+else
+ echo 'a = b';
+echo '<br>';
+if($a != $c)
+ echo 'a != c';
+echo '<br>';
+if($b === $d)
+ echo 'b === d';
+else
+ echo 'b !== d';
+echo '<br>';
+if($c === $d)
+ echo 'c === d';
+else
+ echo 'c !== d';
+echo '<br>';
 
 if(!($c == 10) && $d == 20) echo 'Двойное условие выполнилось<br>';
 else echo 'Двойное условие не выполнилось<br>';
