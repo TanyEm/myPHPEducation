@@ -45,12 +45,12 @@ $garden = [
     ]
 ];
 
-foreach($garden as $kay => $kind)
+foreach($garden as $key => $kind)
 {
-    echo "<b>$kay:</b><br>";
+    echo '<table border="2">';
+    echo "<b>$key:</b><br>";
     foreach($kind as $name => $quantity)
     {
-        echo '<table border="2">';
         echo '<tr>';
         echo '<td>';
         echo "$name:";
@@ -59,10 +59,9 @@ foreach($garden as $kay => $kind)
         echo $quantity;
         echo '</td>';
         echo '</tr>';
-        echo '</table>';
     }
+    echo '</table>';
 }
-
 ?>
     </body>
 </html>
